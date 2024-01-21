@@ -9,33 +9,35 @@
 </head>
 <body>
     <div id="calculator">
-        <div id="display"></div>
+        <div id="display">
+            <div id="text">0</div>
+        </div>
         <div class="line">
-            <button id="ac">AC</button>
+            <button id="clear">AC</button>
+            <button id="delete">←</button>
             <button id="reverse">+/-</button>
-            <button id="mod">%</button>
-            <button id="divide">÷</button>
+            <button id="divide" data-operator>÷</button>
         </div>
         <div class="line">
-            <button id="number7">7</button>
-            <button id="number8">8</button>
-            <button id="number9">9</button>
-            <button id="multiply">×</button>
+            <button id="number7" data-number>7</button>
+            <button id="number8" data-number>8</button>
+            <button id="number9" data-number>9</button>
+            <button id="multiply" data-operator>×</button>
         </div>
         <div class="line">
-            <button id="number4">4</button>
-            <button id="number5">5</button>
-            <button id="number6">6</button>
-            <button id="subtract">−</button>
+            <button id="number4" data-number>4</button>
+            <button id="number5" data-number>5</button>
+            <button id="number6" data-number>6</button>
+            <button id="subtract" data-operator>−</button>
         </div>
         <div class="line">
-            <button id="number1">1</button>
-            <button id="number2">2</button>
-            <button id="number3">3</button>
-            <button id="add">+</button>
+            <button id="number1" data-number>1</button>
+            <button id="number2" data-number>2</button>
+            <button id="number3" data-number>3</button>
+            <button id="add" data-operator>+</button>
         </div>
         <div class="line">
-            <button id="number0">0</button>
+            <button id="number0" data-number>0</button>
             <button id="point">.</button>
             <button id="equal">=</button>
         </div>
